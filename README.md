@@ -1,0 +1,1 @@
+A chatbot created for mental health conversation using JavaScript. For now, I have mocked data for certain keywords only... For real time and more meaningful conversations we have to add apis and ai ml tools. Working on it :) 
