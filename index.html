@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Chatbot Icon (Initially minimized) -->
+    <div id="chatbot-icon" onclick="toggleChatbot()">
+        <img src="chat-icon.png" alt="Chatbot Icon" />
+    </div>
+
+    <!-- Chatbot Window (Initially hidden) -->
+    <div id="chatbot-container">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
